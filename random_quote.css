@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e3a5f;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.wrapper {
+  text-align: center;
+  width: 40%;
+  max-width: 500px;
+}
+
+#quote-box {
+  background: #4a7fcf;
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -43%;
+}
+
+#text {
+  font-size: 1.8em;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+#author {
+  font-style: italic;
+  margin-bottom: 20px;
+  text-align: right;
+  font-size: 1.2em;
+}
+
+button, a {
+  display: block;
+  margin: 15px auto;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 85%;
+  text-align: center;
+}
+
+#new-quote {
+  background: #1e3a5f;
+  color: white;
+  font-size: 1.1em;
+  transition: background 0.3s ease;
+}
+
+#new-quote:hover {
+  background: #5a9bff;
+}
+
